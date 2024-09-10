@@ -161,7 +161,7 @@ nav {
   width: 35rem;
   height: 38rem;
   position: absolute;
-  inset: 26rem auto auto 8.4rem;
+  inset: 25rem auto auto 8.4rem;
   animation: anim1 2s linear 1s infinite alternate;
   transform-style: preserve-3d;
 }
@@ -196,7 +196,7 @@ nav {
 }
 @keyframes anim1 {
   from{
-    transform: translate3d(-1%, 1%, 0) rotateZ(-75deg);
+    transform: translate3d(-3%, 3%, 0) rotateZ(-75deg);
   }
   to{
     transform: translate3d(0, 0, 0) rotateZ(0deg);
@@ -204,10 +204,10 @@ nav {
 }
 @keyframes anim2 {
   from{
-    transform: translate3d(15%, 0, 0) rotateZ(85deg);
+    transform: translate3d(15%, 0, 0) rotateZ(95deg);
   }
   to{
-    transform: translate3d(0, 0, 0) rotateZ(55deg);
+    transform: translate3d(0, 0, 0) rotateZ(45deg);
   }
 }
 
